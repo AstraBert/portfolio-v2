@@ -6,7 +6,7 @@ import Image from "next/image";
 
 import ConnectionLine from "./connection-line";
 
-import { docker, git, go, mongodb, nextjs, nodejs, postgresssql, python, react, redux, rust, socketio, tailwind, ts } from "@/assets/skills/index";
+import { docker, git, transformers, fastapi, shellscript, bioinformatics, postgresssql, python, react, github, qdrant, supabase, jekyll, scikitlearn } from "@/assets/skills/index";
 import { cn } from "@/lib/utils";
 
 type TechBoxProps = {
@@ -120,23 +120,23 @@ export const techs = {
             color: "#61DAFB",
         },
         {
-            title: "Next.js",
-            image: nextjs,
+            title: "Jekyll",
+            image: jekyll,
             color: "#bdbdbd",
         },
         {
-            title: "Typescript",
-            image: ts,
+            title: "FastAPI",
+            image: fastapi,
             color: "#007acc",
         },
         {
-            title: "Tailwind CSS",
-            image: tailwind,
+            title: "SciKitLearn",
+            image: scikitlearn,
             color: "#38b2ac",
         },
         {
-            title: "Rust",
-            image: rust,
+            title: "Transformers",
+            image: transformers,
             color: "#bf0477",
         },
     ],
@@ -154,8 +154,8 @@ export const techs = {
     ],
     stage3: [
         {
-            title: "MongoDB",
-            image: mongodb,
+            title: "Supabase",
+            image: supabase,
             color: "#45A538",
         },
         {
@@ -166,18 +166,18 @@ export const techs = {
     ],
     stage4: [
         {
-            title: "NodeJS",
-            image: nodejs,
+            title: "Qdrant",
+            image: qdrant,
             color: "#83CD29",
         },
         {
-            title: "Redux",
-            image: redux,
+            title: "Bioinformatics",
+            image: bioinformatics,
             color: "#764abc",
         },
         {
-            title: "Socket.io",
-            image: socketio,
+            title: "Bash",
+            image: shellscript,
             color: "#b52d3f",
         },
         {
@@ -186,8 +186,8 @@ export const techs = {
             color: "#27AACD",
         },
         {
-            title: "Go",
-            image: go,
+            title: "GitHub",
+            image: github,
             color: "#00acd7",
         },
     ],

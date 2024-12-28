@@ -6,7 +6,7 @@ import { toast } from "@/components/ui/use-toast";
 const CopyCmd = () => {
     const [copied, setCopied] = useState(false);
     const handleCopyToClipboard = () => {
-        const textToCopy = "npx shivadev";
+        const textToCopy = "python3 -m pip install sentrev";
         navigator.clipboard
             .writeText(textToCopy)
             .then(() => {

@@ -47,13 +47,13 @@ const Contact = () => {
             </h1>
             <span className=" font-normal text-sm md:text-lg text-center">
                 Shoot me an email if you want to connect! You can also find me on{" "}
-                <a className=" text-blue-500 font-bold" href="https://twitter.com/sh17va" target="_blank">
-                    Twitter
+                <a className=" text-blue-500 font-bold" href="https://bsky.app/profile/cle-does-things.bsky.social" target="_blank">
+                    BlueSky
                 </a>{" "}
                 if that&apos;s more your speed.
             </span>
-            <a href="mailto:itsshivahere@outlook.com?body=Hello" target="_blank" className="flex items-center gap-2 text-xl font-medium">
-                <MailPlus /> itsshivahere@outlook.com
+            <a href="mailto:astraberte9@gmail.com?body=Hello" target="_blank" className="flex items-center gap-2 text-xl font-medium">
+                <MailPlus /> astraberte9@gmail.com
             </a>
             <form className="flex flex-col w-full lg:w-[80%] gap-4" autoComplete="off" ref={form} onSubmit={sendEmail}>
                 <div className="flex justify-center items-center flex-wrap gap-3 w-full">

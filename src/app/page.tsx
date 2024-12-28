@@ -1,5 +1,5 @@
 import React from "react";
-import { GitHubLogoIcon, InstagramLogoIcon, TwitterLogoIcon } from "@radix-ui/react-icons";
+import { GitHubLogoIcon, LinkedInLogoIcon, RocketIcon } from "@radix-ui/react-icons";
 import { ChevronRight, MailPlus, MouseIcon, Terminal } from "lucide-react";
 // import Image from "next/image";
 import Link from "next/link";
@@ -21,28 +21,28 @@ const page = () => {
                     Hello World
                 </span>
                 <div className="flex items-center gap-3">
-                    <h1 className="text-4xl flex gap-12 items-center flex-row md:text-7xl lg:text-8xl font-bold ">Hey, I&apos;m Shiva</h1>
+                    <h1 className="text-4xl flex gap-12 items-center flex-row md:text-7xl lg:text-8xl font-bold ">Hey, I&apos;m Clelia</h1>
                     {/* <Image src={clock} alt="coffeCup" className="w-12 rotate-12 h-12 lg:w-16 lg:h-16" /> */}
                 </div>
                 <h1 className=" font-bold lg:text-3xl">
                     I am a <TypingAnimation />
                 </h1>
                 <p className=" opacity-80 text-sm lg:text-xl lg:mb-2 font-medium">
-                    I develop open-source <span className="  text-blue-500 uppercase font-bold">full-stack</span> apps/tools and occasionally take on <span className=" uppercase text-blue-500 font-bold tracking-wider">freelance</span> projects.
+                    I develop open-source <span className="  text-blue-500 uppercase font-bold">python</span> apps/tools and work as a <span className=" uppercase text-blue-500 font-bold tracking-wider">bioinformatician</span> and as <span className=" uppercase text-blue-500 font-bold tracking-wider">back-end</span> engineer for a startup.
                 </p>
                 <div className="flex items-center gap-3 lg:gap-6 flex-wrap">
                     <CopyCmd />
-                    <a href="https://github.com/shivabhattacharjee" target="_blank" rel="noopener noreferrer">
+                    <a href="https://github.com/AstraBert" target="_blank" rel="noopener noreferrer">
                         <GitHubLogoIcon className=" h-6 lg:h-10 w-8 lg:w-8 duration-200 hover:-translate-y-2 cursor-pointer" />
                     </a>
-                    <a href="https://twitter.com/sh17va" target="_blank" rel="noopener noreferrer">
-                        <TwitterLogoIcon className=" h-6 lg:h-10 w-8 lg:w-8 duration-200 hover:-translate-y-2 cursor-pointer" />
+                    <a href="https://bsky.app/profile/cle-does-things.bsky.social" target="_blank" rel="noopener noreferrer">
+                        <RocketIcon className=" h-6 lg:h-10 w-8 lg:w-8 duration-200 hover:-translate-y-2 cursor-pointer" />
                     </a>
-                    <a href="mailto:itsshivahere@outlook.com?body=Hello" target="_blank" rel="noopener noreferrer">
+                    <a href="mailto:astraberte9@gmail.com?body=Hello" target="_blank" rel="noopener noreferrer">
                         <MailPlus className=" h-6 lg:h-10 w-8 lg:w-8 duration-200 hover:-translate-y-2 cursor-pointer" />
                     </a>
-                    <a href="https://instagram.com/shivahereig" target="_blank" rel="noopener noreferrer">
-                        <InstagramLogoIcon className=" h-6 lg:h-10 w-8 lg:w-8 duration-200 hover:-translate-y-2 cursor-pointer" />
+                    <a href="https://www.linkedin.com/in/astra-clelia-bertelli-583904297/" target="_blank" rel="noopener noreferrer">
+                        <LinkedInLogoIcon className=" h-6 lg:h-10 w-8 lg:w-8 duration-200 hover:-translate-y-2 cursor-pointer" />
                     </a>
                 </div>
 

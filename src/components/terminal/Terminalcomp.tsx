@@ -75,8 +75,8 @@ const Terminalcomp: React.FC = () => {
                 window.location.href = "https://www.youtube.com/watch?v=hf1DkBQRQj4";
                 output = "";
                 break;
-            case "shiva":
-                output = "Hello there! I am Shiva, a Full Stack Developer experienced in the MERN stack, currently pursuing my Bachelor's  in Computer Science and Engineering. Type about to know more about me";
+            case "clelia":
+                output = "Hi. I'm Clelia (Astra) Bertelli, a self-taught python developer from Italy/Austria. I'm a student currently pursuing my bachelors in Biological Sciences. I love automation: building software that solves real world problems, usually with the help of AI/ML, is something that I really enjoy. I also am an Open Source Advocate and Blogger. My everyday tech stack includes Python, Docker, Qdrant, Postgres, Git, Bash... ";
                 break;
             case "neofetch":
                 window.location.href = "https://www.youtube.com/watch?v=Rl1ImG2b1k8&t=51s";
@@ -86,10 +86,6 @@ const Terminalcomp: React.FC = () => {
                 router.push("/about");
                 output = "";
                 break;
-            case "blogs":
-                router.push("/blogs");
-                output = "";
-                break;
             case "proj":
                 router.push("/projects");
                 output = "";
@@ -97,31 +93,20 @@ const Terminalcomp: React.FC = () => {
             case "proj ls":
                 output = (
                     <ul>
-                        <li>Animetrix</li>
-                        <li>Vermilion</li>
-                        <li>Muxik</li>
-                        <li>Quibble</li>
-                        <li>Synthia</li>
+                        <li>everything-ai</li>
+                        <li>SenTrEv</li>
+                        <li>qdurllm</li>
+                        <li>PrAIvateSearch</li>
+                        <li>PokemonBot</li>
+                        <li>And a lot more...</li>
                     </ul>
                 );
                 break;
             case "help":
                 output = <HelpCommand />;
                 break;
-            case "quibble":
-                window.location.href = "https://quibbleai.vercel.app";
-                output = "";
-                break;
-            case "animetrix":
-                window.location.href = "https://animetrix.xyz";
-                output = "";
-                break;
-            case "muxik":
-                window.location.href = "https://muxik.netlify.app";
-                output = "";
-                break;
-            case "synthia":
-                window.location.href = "https://github.com/shivabhattacharjee/synthia";
+            case "pokemonbot":
+                window.location.href = "https://huggingface.co/spaces/as-cle-bert/pokemon-bot";
                 output = "";
                 break;
             case "clear":
