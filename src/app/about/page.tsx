@@ -13,7 +13,7 @@ import { Info, MailPlus, Zap } from "lucide-react";
 import Image from "next/image";
 import Link from "next/link";
 
-import aboutmemoji from "@/assets/about/confused-memoji.svg";
+import aboutmemoji from "@/assets/about/confused-memoji.png";
 const AboutPage = () => {
     return (
         <section className=" p-4 w-full lg:max-w-[50%] lg:m-auto">
@@ -33,8 +33,8 @@ const AboutPage = () => {
                 <p className="text-md lg:text-2xl flex flex-col gap-2 whitespace-break-spaces font-normal">
                     <span>
                         Hi there!✨ I&apos;m Clelia (Astra) Bertelli, a self-taught python developer from Italy/Austria. I&apos;m a student currently pursuing my bachelors in <span className=" font-bold">Biological Sciences</span>. I love automation: building software that solves real world problems, usually with the help of AI/ML, is something that I really enjoy. I also am an {" "}
-                        <a href="https://github.com/shivabhattacharjee" target="_blank" rel="noopener noreferrer" className=" font-bold text-green-500">
-                            Open Source Advocate and Blogger.
+                        <a href="https://github.com/AstraBert" target="_blank" rel="noopener noreferrer" className=" font-bold text-green-500">
+                            Open Source Advocate and Blogger
                         </a>
                         .
                     </span>
@@ -94,7 +94,7 @@ const AboutPage = () => {
                 </div>
                 <p className=" text-md lg:text-2xl whitespace-break-spaces font-normal">
                     I&apos;m excited to connect with others via email (
-                    <a href="mailto:itsshivahere@outlook.com?body=Hello" rel="noopener noreferrer" target="_blank" className=" text-blue-500 italic font-bold">
+                    <a href="mailto:astraberte9@gmail.com?body=Hello" rel="noopener noreferrer" target="_blank" className=" text-blue-500 italic font-bold">
                         astraberte9@gmail.com
                     </a>
                     ) and{" "}

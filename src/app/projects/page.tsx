@@ -11,7 +11,7 @@ export function generateMetadata() {
 }
 import Link from "next/link";
 
-import reactmemoji from "@/assets/projects/memoji.svg";
+import reactmemoji from "@/assets/projects/memoji.png";
 import { projectArray } from "@/assets/projects/projectsArray";
 import workscribble from "@/assets/projects/work-scribble.svg";
 import Card from "@/components/projects/card";

@@ -77,7 +77,7 @@ export const projectArray = [
         description: "AmpliPiper is a comprehensive workflow based on BASH scripting, Python and R for analyzing high-throughput amplicon sequencing data for multiple samples and loci. The pipeline performs various tasks, including raw read demultiplexing, filtering, consensus sequence reconstruction, species identification and phylogenetic analysis.",
         image: amplipiper,
         type: "Open Source",
-        hostedLink: "",
+        hostedLink: "https://www.biorxiv.org/content/10.1101/2024.12.11.628038v1",
         githubLink: "https://github.com/nhmvienna/AmpliPiper",
     },
     {
@@ -110,7 +110,7 @@ export const projectArray = [
         image: proteinesm,
         type: "Open Source",
         hostedLink: "https://huggingface.co/spaces/as-cle-bert/proteins-with-esm",
-        githubLink: "https://www.github.com/shivabhattacharjee/muxik-backend",
+        githubLink: "https://www.github.com/AstraBert/proteins-w-esm",
     },
     {
         name: "Word-Doc-2-HTML",

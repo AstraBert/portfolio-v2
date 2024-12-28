@@ -32,7 +32,7 @@ const CopyCmd = () => {
     return (
         <div onClick={handleCopyToClipboard} className="homepagecontactbtn">
             {copied ? <ClipboardCheck /> : <Clipboard />}
-            npx shivadev
+            python3 -m pip install sentrev
         </div>
     );
 };

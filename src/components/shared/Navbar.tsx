@@ -31,7 +31,7 @@ const Navbar = () => {
             {/* ipad & desktop navbar */}
             <section className="flex w-full justify-between items-center  m-auto p-2 rounded-full">
                 <Link href={"/"} className=" uppercase text-3xl font-bold tracking-widest relative">
-                    Shiva <span className=" text-blue-500 font-bold text-8xl absolute -bottom-2">.</span>{" "}
+                    Cle✨ <span className=" text-blue-500 font-bold text-8xl absolute -bottom-2">.</span>{" "}
                 </Link>
                 <div className=" hidden lg:flex gap-5 min-w-96 justify-center items-center border-2 border-white/30 bg-black/10 backdrop-blur-lg rounded-full p-2">
                     {navbarItems.map((item) => {

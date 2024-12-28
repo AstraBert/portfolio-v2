@@ -13,19 +13,7 @@
     {
       "files": ["*.ts", "*.tsx"],
       "rules": {
-        "simple-import-sort/imports": [
-          "error",
-          {
-            "groups" : [
-              ["^react","^@?\\w"],
-              ["^(@|components)(./*$)"],
-              ["^\\u0000"],
-              ["^\\.\\.(?!/?$)","^\\.\\./?$"],
-              ["^\\./(?=.*/)(?!/?$)","^\\.(?!/?$)","^\\./?$"],
-              ["^.+\\.s?css$"]
-            ]
-          }
-        ]
+        "simple-import-sort/imports": "off"
       }
     },{
       "files": ["*.ts", "*.tsx"],
