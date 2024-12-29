@@ -32,7 +32,7 @@ const AboutPage = () => {
                 </h2>
                 <p className="text-md lg:text-2xl flex flex-col gap-2 whitespace-break-spaces font-normal">
                     <span>
-                        Hi there!✨ I&apos;m Clelia (Astra) Bertelli, a self-taught python developer from Italy/Austria. I&apos;m a student currently pursuing my bachelors in <span className=" font-bold">Biological Sciences</span>. I love automation: building software that solves real world problems, usually with the help of AI/ML, is something that I really enjoy. I also am an {" "}
+                        Hi there!✨ I&apos;m Clelia (Astra) Bertelli, a self-taught python developer from Italy/Austria. I&apos;m a student currently pursuing my bachelors in <span className=" font-bold">Biological Sciences</span>. I love automation: building software that solves real world problems, usually with the help of AI/ML, is something that I really enjoy. I am also an {" "}
                         <a href="https://github.com/AstraBert" target="_blank" rel="noopener noreferrer" className=" font-bold text-green-500">
                             Open Source Advocate and Blogger
                         </a>
@@ -44,7 +44,7 @@ const AboutPage = () => {
                     </span>
                     <span>
                         My Operating System of choice are{" "}
-                        <a href="https://www.apple.com/in/macos/macos-sequoia/" target="_blank" rel="noopener noreferrer" className=" text-lg text-blue-500 font-bold uppercase">
+                        <a href="https://www.microsoft.com/en-us/windows/windows-11?r=1 " target="_blank" rel="noopener noreferrer" className=" text-lg text-blue-500 font-bold uppercase">
                             Windows and Linux (Ubuntu/Debian/AlmaLinux)
                         </a>{" "}
                         and{" "}
@@ -55,9 +55,9 @@ const AboutPage = () => {
                     </span>
                     <span>
                         I am an active blogger and technical writer too. I have two blogs, about{" "}
-                        <a href="https://www.sih.gov.in/#" className=" text-orange-400 font-bold" target="_blank" rel="noopener noreferrer">
+                        <Link href={"/blogs"} className=" font-bold capitalize text-lg lg:text-3xl">
                             Open Science and Docker as a DevOps technology
-                        </a>{" "}
+                        </Link>
                     </span>
                     <span>
                         If you feel interest in what I do, drop a visit to my{" "}

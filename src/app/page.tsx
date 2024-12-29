@@ -1,4 +1,5 @@
 import React from "react";
+import { Analytics } from "@vercel/analytics/react"
 import { GitHubLogoIcon, LinkedInLogoIcon, RocketIcon } from "@radix-ui/react-icons";
 import { ChevronRight, MailPlus, MouseIcon, Terminal } from "lucide-react";
 // import Image from "next/image";
