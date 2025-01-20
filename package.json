@@ -29,6 +29,7 @@
     "nextjs-toploader": "^1.6.4",
     "react": "^18",
     "react-dom": "^18",
+    "react-pdf": "^9.2.1",
     "react-spinners": "^0.13.8",
     "react-type-animation": "^3.2.0",
     "tailwind-merge": "^2.2.0",

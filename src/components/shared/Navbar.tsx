@@ -1,7 +1,7 @@
 "use client";
 
 import React from "react";
-import { Home, Info, TerminalIcon, NotebookPen } from "lucide-react";
+import { Home, Info, TerminalIcon, NotebookPen, ScrollText } from "lucide-react";
 import Link from "next/link";
 import { usePathname } from "next/navigation";
 
@@ -23,10 +23,15 @@ const navbarItems = [
         href: "/about",
         icon: Info,
     },
-        {
+    {
         name: "Blogs",
         href: "/blogs",
         icon: NotebookPen,
+    },
+    {
+        name: "My CV",
+        href: "/resume",
+        icon: ScrollText,
     },
 ];
 const Navbar = () => {

@@ -1,5 +1,13 @@
-import { everythingai, praivatesearch, whatagityear, qdurllm, pokemonbot, sentrev, proteinviz, proteinesm, greenfitai, biomedpapers, amplipiper, booksmixer, supaseqs, word2html, tinysd, pitchgen } from "./index";
+import { everythingai, praivatesearch, whatagityear, qdurllm, pokemonbot, sentrev, proteinviz, proteinesm, greenfitai, biomedpapers, amplipiper, booksmixer, supaseqs, word2html, tinysd, pitchgen, obsidian, pdfitdown, debate } from "./index";
 export const projectArray = [
+        {
+        name: "PrAIvateSearch",
+        description: "Own your AI, search the web with it🌐😎",
+        image: praivatesearch,
+        type: "Open Source",
+        hostedLink: "https://astrabert.github.io/PrAIvateSearch",
+        githubLink: "https://www.github.com/AstraBert/PrAIvateSearch",
+    },
     {
         name: "everything-ai",
         description: "Your fully proficient, AI-powered and local chatbot assistant🤖",
@@ -7,14 +15,6 @@ export const projectArray = [
         type: "Open Source",
         hostedLink: "",
         githubLink: "https://www.github.com/AstraBert/everything-ai",
-    },
-    {
-        name: "PrAIvateSearch",
-        description: "Own your AI, search the web with it🌐😎",
-        image: praivatesearch,
-        type: "Open Source",
-        hostedLink: "",
-        githubLink: "https://www.github.com/AstraBert/PrAIvateSearch",
     },
     {
         name: "qdurllm",
@@ -39,6 +39,30 @@ export const projectArray = [
         type: "Open Source",
         hostedLink: "https://huggingface.co/spaces/as-cle-bert/pokemon-bot",
         githubLink: "https://www.github.com/AstraBert/Pokemon-Bot",
+    },
+    {
+        name: "PdfItDown",
+        description: "Convert Everything to PDF",
+        image: pdfitdown,
+        type: "Open Source",
+        hostedLink: "https://huggingface.co/spaces/as-cle-bert/pdfitdown",
+        githubLink: "https://www.github.com/AstraBert/PdfItDown",
+    },
+    {
+        name: "DebateLLM-Championshop",
+        description: "5 LLMs, 1vs1 matches to produce the most convincing argumentation in favor or against a random motion. Oh, and also the debate judge is an LLM :)",
+        image: debate,
+        type: "Open Source",
+        hostedLink: "https://huggingface.co/blog/as-cle-bert/debate-championship-for-llms",
+        githubLink: "https://github.com/AstraBert/DebateLLM-Championship",
+    },
+    {
+        name: "Obsidian-Digest",
+        description: "Superpower your Obsidian.md notes with Gemini-2",
+        image: obsidian,
+        type: "Open Source",
+        hostedLink: "",
+        githubLink: "https://www.github.com/AstraBert/obsidian-digest",
     },
     {
         name: "ProteinViz",
