@@ -1,12 +1,36 @@
-import { everythingai, praivatesearch, whatagityear, qdurllm, pokemonbot, sentrev, proteinviz, proteinesm, greenfitai, biomedpapers, amplipiper, booksmixer, supaseqs, word2html, tinysd, pitchgen, obsidian, pdfitdown, debate } from "./index";
+import { everythingai, praivatesearch, whatagityear, qdurllm, pokemonbot, sentrev, proteinviz, proteinesm, greenfitai, biomedpapers, amplipiper, booksmixer, supaseqs, word2html, tinysd, pitchgen, obsidian, pdfitdown, debate, scinews, phiqwenstem, paperschat } from "./index";
 export const projectArray = [
-        {
+    {
         name: "PrAIvateSearch",
         description: "Own your AI, search the web with it🌐😎",
         image: praivatesearch,
         type: "Open Source",
         hostedLink: "https://astrabert.github.io/PrAIvateSearch",
         githubLink: "https://www.github.com/AstraBert/PrAIvateSearch",
+    },
+    {
+        name: "PhiQwenSTEM",
+        description: "A reasoning assistant for your STEM education",
+        image: phiqwenstem,
+        type: "Open Source",
+        hostedLink: "https://pqstem.org/",
+        githubLink: "https://github.com/AstraBert/PhiQwenSTEM",
+    },
+    {
+        name: "SciNewsBot",
+        description: "A simple, AI-powered bot to report daily news about environment, technology, science and energy on BlueSky.",
+        image: scinews,
+        type: "Open Source",
+        hostedLink: "https://bsky.app/profile/sci-news-bot.bsky.social",
+        githubLink: "https://github.com/AstraBert/SciNewsBot",
+    },
+    {
+        name: "PapersChat",
+        description: "An agentic AI application that allows you to chat with your papers and gather also information from papers on ArXiv and on PubMed",
+        image: paperschat,
+        type: "Open Source",
+        hostedLink: "",
+        githubLink: "https://github.com/AstraBert/PapersChat",
     },
     {
         name: "everything-ai",

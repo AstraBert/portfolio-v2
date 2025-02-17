@@ -6,7 +6,7 @@ import Image from "next/image";
 
 import ConnectionLine from "./connection-line";
 
-import { docker, git, transformers, fastapi, shellscript, bioinformatics, postgresssql, python, react, github, qdrant, supabase, jekyll, scikitlearn } from "@/assets/skills/index";
+import { docker, git, transformers, fastapi, shellscript, bioinformatics, postgresssql, python, react, github, qdrant, supabase, jekyll, typescript } from "@/assets/skills/index";
 import { cn } from "@/lib/utils";
 
 type TechBoxProps = {
@@ -130,8 +130,8 @@ export const techs = {
             color: "#007acc",
         },
         {
-            title: "SciKitLearn",
-            image: scikitlearn,
+            title: "TypeScript",
+            image: typescript,
             color: "#38b2ac",
         },
         {

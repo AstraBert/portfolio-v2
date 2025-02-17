@@ -17,4 +17,7 @@ import tinysd from "./sd.jpg";
 import pitchgen from "./pitchgen.png";
 import pdfitdown from "./pdfitdown.png";
 import debate from "./debate.png";
-export { everythingai, whatagityear, sentrev, praivatesearch, qdurllm, proteinviz, proteinesm, greenfitai, pokemonbot, biomedpapers, amplipiper, booksmixer, supaseqs, word2html, tinysd, pitchgen, obsidian, pdfitdown, debate, };
+import scinews from "./scinews.png";
+import paperschat from "./paperschat.png";
+import phiqwenstem from "./phiQwenSTEM.png"; 
+export { everythingai, whatagityear, sentrev, praivatesearch, qdurllm, proteinviz, proteinesm, greenfitai, pokemonbot, biomedpapers, amplipiper, booksmixer, supaseqs, word2html, tinysd, pitchgen, obsidian, pdfitdown, debate, scinews, paperschat, phiqwenstem };
