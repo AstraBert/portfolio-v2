@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 import { Roboto } from "next/font/google";
 import NextTopLoader from "nextjs-toploader";
+import { Analytics } from '@vercel/analytics/next';
 
 import "./globals.css";
 
@@ -33,6 +34,7 @@ export default function RootLayout({
                     {children}
                     <Footer />
                 </ThemeProvider>
+                <Analytics />
             </body>
         </html>
     );
