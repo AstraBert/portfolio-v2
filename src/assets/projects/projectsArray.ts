@@ -1,5 +1,45 @@
-import { everythingai, praivatesearch, whatagityear, qdurllm, pokemonbot, sentrev, proteinviz, proteinesm, greenfitai, biomedpapers, amplipiper, booksmixer, supaseqs, word2html, tinysd, pitchgen, obsidian, pdfitdown, debate, scinews, phiqwenstem, paperschat } from "./index";
+import { everythingai, praivatesearch, whatagityear, qdurllm, pokemonbot, sentrev, proteinviz, proteinesm, greenfitai, biomedpapers, amplipiper, booksmixer, supaseqs, word2html, tinysd, pitchgen, obsidian, pdfitdown, debate, scinews, phiqwenstem, paperschat, newsreport, lida, diragnosis, ragcoon, convoai} from "./index";
 export const projectArray = [
+    {
+        name: "diRAGnosis",
+        description: "Diagnose the performance of your RAG🩺",
+        image: diragnosis,
+        type: "Open Source",
+        hostedLink: "",
+        githubLink: "https://www.github.com/AstraBert/diragnosis",
+    },
+    {
+        name: "RAGcoon",
+        description: "Agentic RAG to help you build a startup🚀",
+        image: ragcoon,
+        type: "Open Source",
+        hostedLink: "",
+        githubLink: "https://www.github.com/AstraBert/ragcoon",
+    },
+    {
+        name: "conversational-ai",
+        description: "Conversational multi-agent system :)",
+        image: convoai,
+        type: "Open Source",
+        hostedLink: "",
+        githubLink: "https://www.github.com/AstraBert/conversational-ai",
+    },
+    {
+        name: "LlamaIndex Docs Agent",
+        description: "OA simple ReAct agent that has access to LlamaIndex docs and to the internet to provide you with insights on LlamaIndex itself.",
+        image: lida,
+        type: "Open Source",
+        hostedLink: "",
+        githubLink: "https://www.github.com/AstraBert/llamaindex-docs-agent",
+    },
+    {
+        name: "NewsReport AI",
+        description: "News about any topic, already digested for you📰",
+        image: newsreport,
+        type: "Open Source",
+        hostedLink: "",
+        githubLink: "https://www.github.com/AstraBert/newsreport-ai",
+    },
     {
         name: "PrAIvateSearch",
         description: "Own your AI, search the web with it🌐😎",
